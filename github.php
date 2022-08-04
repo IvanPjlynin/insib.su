@@ -13,5 +13,5 @@ function execPrint($command) {
 execPrint("cd /var/www/6chester9/www/insib.su");
 execPrint("eval `ssh-agent`");
 execPrint("ssh-add ./.ssh/id_rsa");
-execPrint("git pull https://github.com/IvanPjlynin/insib.su.git master");
+execPrint("git pull git@github.com:IvanPjlynin/insib.su.git master");
 execPrint("git status");
