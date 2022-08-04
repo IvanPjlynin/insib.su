@@ -10,6 +10,8 @@ function execPrint($command) {
     print("</pre>");
 }
 // Print the exec output inside of a pre element
-execPrint("git init");
+execPrint("cd /var/www/6chester9/www/insib.su");
+execPrint("eval `ssh-agent`");
+execPrint("ssh-add ./.ssh/id_rsa");
 execPrint("git pull https://github.com/IvanPjlynin/insib.su.git master");
 execPrint("git status");
