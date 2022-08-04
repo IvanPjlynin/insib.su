@@ -14,5 +14,9 @@ execPrint("cd /var/www/6chester9/www/insib.su");
 execPrint("git init");
 execPrint("eval `ssh-agent`");
 execPrint("ssh-add ./.ssh/id_rsa");
+
+execPrint("git config --global user.name IVAN POLUNIN");
+execPrint("git config --global user.email ipolynin@gmail.com");
+
 execPrint("git pull https://github.com/IvanPjlynin/insib.su.git master");
 //execPrint("git status");
