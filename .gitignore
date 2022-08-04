@@ -5,3 +5,4 @@
 /administrator/components/com_actionlogs/*
 /cache/*
 /configuration.php
+/github.php
