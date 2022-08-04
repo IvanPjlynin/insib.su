@@ -11,6 +11,7 @@ function execPrint($command) {
 }
 // Print the exec output inside of a pre element
 execPrint("cd /var/www/6chester9/www/insib.su");
+execPrint("git init");
 execPrint("eval `ssh-agent`");
 execPrint("ssh-add ./.ssh/id_rsa");
 execPrint("git pull git@github.com:IvanPjlynin/insib.su.git master");
